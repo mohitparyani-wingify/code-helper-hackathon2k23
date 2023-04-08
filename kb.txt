@@ -1,0 +1,95 @@
+Use the following information to answer the questions asked further.
+
+The following is the list of classes that can be used to style the Button as a button with a border and a button as a link and buttons with different colors.
+Button Classes:
+
+.btn: This class styles the button with a gray border, and gray text color and makes the background of the button transparent. When the user hovers over the button, the font color and the border color become a couple of shades darker.
+
+.btn-primary: This class should be used along with the .btn class. This class changes the color of the border and text color to blue. When the user hovers over the button, the font color and the border color become darker.
+
+.btn-link: This class should be used along with the .btn class. It removes the border from the button to make it look like a link. Also, when used along with .btn-primary the button text color is changed to blue color.
+
+The information provided is a list of CSS classes along with their descriptions for creating badges, which can be used to display status or other important information in a visually prominent way. The three CSS classes are:
+
+.badge: This class is used to style an element as a badge. It sets the font size to 12px, font-weight to 500, and applies a lighter gray background with a darker foreground (text color).
+
+.badge-green: This class is used in conjunction with the .badge class to style a badge with a lighter green background and darker green foreground.
+
+.badge-red: This class is also used in conjunction with the .badge class to style a badge with a light pink background and darker red foreground.
+
+The following is the list of classes used to style a container as a notification box.
+
+notification-box: This class is used to style a container as a notification box. It adds a dark gray-colored border with a width of 1 pixel to the container and makes the background white. It also aligns the child items of the container horizontally using the display: flex property.
+
+notification-box-filled: This class should be used along with the notification-box class. It fills the container with a light gray background color.
+
+notification-box-primary: This class should be used along with the notification-box class. It makes the border color of the container blue. When this class is used along with notification-box-filled, the background color of the container is changed to light blue color.
+
+By using these pre-defined CSS classes, you can easily create different variations of notification boxes with different background colors and border styles.
+
+
+
+
+Following is the list of functions available and their descriptions:
+
+times(times, func): Runs the provided function a specified number of times.
+
+getRandomNumberInRange(lower, upper): Returns a random number between the provided lower and upper bounds.
+
+shorten(text, length, ellipsisCount): Returns a shortened version of the provided text, with an optional length and ellipsis count.
+
+removeDuplicates(arr): Returns a new array with duplicates removed from the provided array.
+
+debounce(func, timeout): Returns a function that delays the execution of the provided function until a specified timeout has passed.
+
+slugify(text): Converts the provided text to a URL-friendly slug format.
+
+camelToSnakeCase(text): Converts the provided text from camel case to snake case. 
+
+snakeToCamelCase(text): Converts the provided text from snake case to camel case.
+
+emailIsValid(email): Returns a boolean indicating whether the provided string is a valid email address.
+
+
+
+
+Following is the list of all the available custom AngularJS directives, their descriptions, and supporting attributes:
+
+name: tooltip-directive
+usage: show a tooltip on an element
+supporting attributes: tooltip-position = string value (right, left, top, bottom)
+tooltip-directive = string value having text to be shown inside the tooltip
+
+name: lock-directive
+usage: lock an HTML element and show a lock icon beside it
+supporting attributes: lock-directive = boolean value or variable to be used as a condition to lock the element
+
+name: color-directive
+usage: apply the background color to an element based on input values
+supporting attributes: color-directive = string value from ElementColorChart
+
+name: dropDown-directive
+usage: show a drop-down on the page with options in it
+supporting tag: custom HTML tag called dropDown-directive will contain an options attribute that will contain a string value (array of options to show)
+
+name: icon-directive
+usage: show an icon on the page
+supporting tag: custom icon-directive will contain the name of the icon against icon-name attribute
+
+name: buttonLoader-directive
+usage: show a loader on the button
+supporting attribute: buttonLoader-directive = string value (some function)
+
+name: menu-directive
+usage: show a menu with custom content when the element inside its child activator is clicked
+supporting child tags:
+custom HTML tag called activator which will contain the HTML for the trigger point or button for opening the menu popup.
+custom HTML tag called menu-content will contain the actual HTML content to be shown inside the menu popup.
+
+name: help-tooltip-directive
+usage: adds a question mark icon at the end of the content of an HTML element and shows the helpful tooltip when the user hovers over the added icon
+supporting tag: custom HTML tag help-tooltip will be used to show the icon and the tooltip will contain content in it
+
+name: click-event-directive
+usage: Mark the event triggered
+supporting attribute: click-event = string value (event name)
